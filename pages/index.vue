@@ -5,7 +5,7 @@
       <Video />
       <Slogan />
       <History />
-      <Slogan2 />
+      <Slogan />
       <Instagram />
       <Forma />
       <Statistics />
@@ -20,7 +20,6 @@ import Cover from '@/components/Cover';
 import Video from '@/components/Video';
 import Slogan from '@/components/Slogan';
 import History from '@/components/History';
-import Slogan2 from '@/components/Slogan2';
 import Instagram from '@/components/Instagram';
 import Forma from '@/components/Forma';
 import Statistics from '@/components/Statistics';
@@ -32,7 +31,6 @@ export default {
     Video,
     Slogan,
     History,
-    Slogan2,
     Instagram,
     Forma,
     Statistics,
@@ -41,7 +39,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   width: 1440px;
@@ -50,25 +48,6 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.links {
-  padding-top: 15px;
 }
 .test {
   width: 100%;

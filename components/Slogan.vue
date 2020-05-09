@@ -1,6 +1,6 @@
 <template>
   <section class="slogan">
-    <p class="content-slogan">И В ОТЛИЧИЕ ОТ РАКА, <span class="slogan-title">#ЭТОНЕЛЕЧИТСЯ</span></p>
+    <p class="content-slogan">И В ОТЛИЧИЕ ОТ РАКА, #ЭТОНЕЛЕЧИТСЯ</p>
   </section>
 </template>
 
@@ -10,6 +10,9 @@ export default {};
 
 <style scoped>
 .slogan {
+}
+
+.content-slogan {
   width: 100%;
   text-align: center;
   color: #ffffff;
@@ -20,10 +23,5 @@ export default {};
   padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
-}
-
-.slogan-title {
-  font-weight: bold;
-  font-size: 32px;
 }
 </style>
